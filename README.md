@@ -13,8 +13,8 @@ ApngDrawable for android, high efficiency, low memory
 
 
 # Dependencies
-[PNGJ v2.1.1](https://github.com/leonbloy/pngj/)
-[apng-view](https://github.com/sahasbhop/apng-view)
+		•[PNGJ v2.1.1](https://github.com/leonbloy/pngj/)
+		•[apng-view](https://github.com/sahasbhop/apng-view)
 
 
 # License
