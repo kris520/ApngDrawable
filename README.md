@@ -3,17 +3,17 @@ ApngDrawable for android, high efficiency, low memory
 
 
 # Usage
-// Init ApngLoader
+/* Init ApngLoader */
 ApngLoader.init(this);
 
-// Load a apng to imageView
+/* Load a apng to imageView */
 String apngUri = ApngImageUtils.Scheme.ASSETS.wrap(assetName);
 ApngLoader.loadImage(apngUri, imageView, null);
 
 
 # Dependencies
-+[PNGJ v2.1.1](https://github.com/leonbloy/pngj/)
-+[apng-view](https://github.com/sahasbhop/apng-view)
+1.[PNGJ v2.1.1](https://github.com/leonbloy/pngj/)
+2.[apng-view](https://github.com/sahasbhop/apng-view)
 
 
 # License
