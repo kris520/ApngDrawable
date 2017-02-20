@@ -1,6 +1,13 @@
 # ApngDrawable
 ApngDrawable for android, high efficiency, low memory
 
+# Performance
+Initial Version:
+![](https://github.com/kris520/ApngDrawable/blob/master/before.jpeg)
+
+After optimized
+![](https://github.com/kris520/ApngDrawable/blob/master/now.jpeg)
+
 
 # Usage
 ###
@@ -13,8 +20,8 @@ ApngDrawable for android, high efficiency, low memory
 
 
 # Dependencies
-•[PNGJ v2.1.1](https://github.com/leonbloy/pngj/)
-•[apng-view](https://github.com/sahasbhop/apng-view)
+* [PNGJ v2.1.1](https://github.com/leonbloy/pngj/)
+* [apng-view](https://github.com/sahasbhop/apng-view)
 
 
 # License
