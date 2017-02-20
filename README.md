@@ -18,7 +18,8 @@ After optimized, memory is very stable and CPU occupancy is also reduced.
 		// Init ApngLoader
 		ApngLoader.init(this);
 
-		//Load a apng to imageView */
+		// Load a apng to imageView
+		// ImageView scaleType support CENTER_INSIDE/CENTER_CROP/FIT_XY, and default FIT_XY
 		String apngUri = ApngImageUtils.Scheme.ASSETS.wrap(assetName);
 		ApngLoader.loadImage(apngUri, imageView, null);
 
