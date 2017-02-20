@@ -2,10 +2,12 @@
 ApngDrawable for android, high efficiency, low memory
 
 # Performance
+
+Play three times with blued.png(750*1334)
 Initial Version:
 ![](https://github.com/kris520/ApngDrawable/blob/master/before.jpeg)
 
-After optimized
+After optimized, memory is very stable and CPU occupancy is also reduced.
 ![](https://github.com/kris520/ApngDrawable/blob/master/now.jpeg)
 
 
