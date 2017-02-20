@@ -30,7 +30,7 @@ After optimized, memory is very stable and CPU occupancy is also reduced.
 
 
 # Note
-Support Android Api19(4.4) and above
+Support Android Api19(4.4) and later
 
 
 # License
