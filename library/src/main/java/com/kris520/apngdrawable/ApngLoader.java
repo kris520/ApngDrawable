@@ -69,6 +69,10 @@ public class ApngLoader {
                     @Override
                     public void run() {
                         if (finalDrawable != null) {
+                            Drawable oldDrawable = imageView.getDrawable();
+                            if (oldDrawable != finalDrawable && oldDrawable != null && oldDrawable instanceof ApngDrawable) {
+                                ((ApngDrawable)oldDrawable).stop();
+                            }
                             imageView.setImageDrawable(finalDrawable);
                             if (listener != null)
                                 listener.onLoadingComplete(uri, imageView, finalDrawable);
